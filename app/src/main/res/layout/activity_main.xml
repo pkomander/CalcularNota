@@ -19,7 +19,7 @@
         android:id="@+id/editTxtNota1"
         android:layout_width="110dp"
         android:layout_height="wrap_content"
-        android:inputType="number"
+        android:inputType="numberDecimal"
         tools:ignore="MissingConstraints" />
 
     <TextView
@@ -34,7 +34,7 @@
         android:id="@+id/editTxtNota2"
         android:layout_width="110dp"
         android:layout_height="wrap_content"
-        android:inputType="number"
+        android:inputType="numberDecimal"
         tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="224dp"
         tools:layout_editor_absoluteY="130dp" />
@@ -51,27 +51,10 @@
         android:id="@+id/editTxtNota3"
         android:layout_width="110dp"
         android:layout_height="wrap_content"
-        android:inputType="number"
+        android:inputType="numberDecimal"
         tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="0dp"
         tools:layout_editor_absoluteY="192dp" />
-
-<!--    <TextView-->
-<!--        android:layout_width="wrap_content"-->
-<!--        android:layout_height="wrap_content"-->
-<!--        android:text="Nota 4"-->
-<!--        tools:ignore="MissingConstraints"-->
-<!--        tools:layout_editor_absoluteX="16dp"-->
-<!--        tools:layout_editor_absoluteY="137dp" />-->
-
-<!--    <EditText-->
-<!--        android:id="@+id/editTxtNota4"-->
-<!--        android:layout_width="110dp"-->
-<!--        android:layout_height="wrap_content"-->
-<!--        android:inputType="number"-->
-<!--        tools:ignore="MissingConstraints"-->
-<!--        tools:layout_editor_absoluteX="20dp"-->
-<!--        tools:layout_editor_absoluteY="425dp" />-->
 
     <Button
         android:id="@+id/editTxtCalcular"

@@ -13,7 +13,6 @@ public class MainActivity extends AppCompatActivity {
     private EditText editTxtNota1;
     private EditText editTxtNota2;
     private EditText editTxtNota3;
-//    private EditText editTxtNota4;
     private Button btnCalcular;
     private TextView txtMediaFinal;
 
@@ -25,7 +24,6 @@ public class MainActivity extends AppCompatActivity {
         editTxtNota1 = (EditText) findViewById(R.id.editTxtNota1);
         editTxtNota2 = (EditText) findViewById(R.id.editTxtNota2);
         editTxtNota3 = (EditText) findViewById(R.id.editTxtNota3);
-//        editTxtNota4 = (EditText) findViewById(R.id.editTxtNota4);
         btnCalcular = (Button) findViewById(R.id.editTxtCalcular);
         txtMediaFinal = (TextView) findViewById(R.id.editTxtMediaFinal);
 
@@ -35,7 +33,6 @@ public class MainActivity extends AppCompatActivity {
                 double nota1 = Double.parseDouble(editTxtNota1.getText().toString());
                 double nota2 = Double.parseDouble(editTxtNota2.getText().toString());
                 double nota3 = Double.parseDouble(editTxtNota3.getText().toString());
-                //double nota4 = Double.parseDouble(editTxtNota4.getText().toString());
 
                 double media = CalcularMedia(nota1, nota2, nota3);
 
